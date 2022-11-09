@@ -1,0 +1,9 @@
+.titulo{
+    width: 100%;
+    height: auto;
+    display: flex;
+    padding: 22px;
+    position: relative;
+    background-color: #6A7BA2;
+
+}

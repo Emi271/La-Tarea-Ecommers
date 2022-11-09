@@ -1,0 +1,43 @@
+.nav-logo {
+    color: #FFFFFF;
+    font-size: 28px;
+    font-weight :900;
+    letter-spacing: 3px;
+    font-family: 'Montserrat';
+    }
+   
+ .nav-items{
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    margin-bottom: 0px;
+    }
+.nav-item {
+    color: #FFFFFF;
+    font-size: 18px;
+    font-weight: 480;
+    letter-spacing: 1px;
+    text-decoration: none;
+    }
+   
+.nav-conteiner{
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 22px;
+    position: fixed;
+    background-color: #6bf177;
+    border-bottom: 1px solid #FFFFFF;
+    z-index: 999;
+    }
+   
+   
+.nav-item:nth-child(1) {
+    margin-right: 50px;
+    }
+   
+.nav-item:nth-child(2) {
+    margin-right: 40px;
+    }
